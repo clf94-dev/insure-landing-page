@@ -86,10 +86,6 @@
   font-family: "Karla", sans-serif;
 }
 
-#cta {
-  z-index: 0;
-}
-
 #cta .pattern-cta-right {
   position: absolute;
   right: 12.5%;
@@ -100,8 +96,11 @@
 #cta .container {
   background-color: #2d2640;
   padding: 5% 7% 3% 7%;
-  z-index: 1;
   margin: 150px auto;
+}
+
+#cta .container .cta-row {
+  z-index: 10;
 }
 
 #cta .container .cta-row h2 {
@@ -109,12 +108,16 @@
   font-family: "DM Serif Display", serif;
 }
 
-#cta .container .cta-row button {
-  background-color: #2d2640;
+#cta .container .cta-row .col-md-3 {
+  z-index: 10;
+}
+
+#cta .container .cta-row .col-md-3 button {
+  background-color: transparent;
   margin-bottom: 20%;
 }
 
-#cta .container .cta-row button:hover {
+#cta .container .cta-row .col-md-3 button:hover {
   background-color: white;
   color: #2d2640;
   border-color: #2d2640;
