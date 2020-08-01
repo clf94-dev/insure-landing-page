@@ -39,6 +39,7 @@
             .col-text {
                 padding: 10% 5% 7% 7%;
                 color: white;
+                z-index: 10;
                 h1 {
                     font-size: 70px;
                     padding-bottom: 25px;
@@ -52,6 +53,7 @@
                     font-family: $font-family-body;
                 }
                 .btn-top {
+                    background-color: transparent;
                     background-color: $dark-violet;
                     &:hover {
                         background-color: white;

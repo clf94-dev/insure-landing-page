@@ -32,6 +32,7 @@
 #top .top-row .col-text {
   padding: 10% 5% 7% 7%;
   color: white;
+  z-index: 10;
 }
 
 #top .top-row .col-text h1 {
@@ -50,6 +51,7 @@
 }
 
 #top .top-row .col-text .btn-top {
+  background-color: transparent;
   background-color: #2d2640;
 }
 
