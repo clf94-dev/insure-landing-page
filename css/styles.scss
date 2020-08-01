@@ -129,7 +129,7 @@
         .pattern-footer-left {
             color: $grayish-blue;
             width: 22%;
-            z-index: 5;
+            z-index: 3;
             margin-top: 0;
             position: relative;
             top: -462px;
@@ -168,8 +168,8 @@
             }
         }
         .row {
-            z-index: 1;
             .col-md-3 {
+                z-index: 10;
                 h5 {
                     font-family: $font-family-body;
                     &:hover {
